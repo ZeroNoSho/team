@@ -219,6 +219,15 @@ header {
 }
 
 @media screen and (max-width: 991px) {
+  .navbar-light .navbar-toggler {
+    color: transparent; 
+}
+  .navbar-toggler{
+    border: none;
+    color: transparent;
+    border-color: transparent;
+  }
+
   #navbarNav li {
     margin-left: 0%;
   }
